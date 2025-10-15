@@ -2,12 +2,41 @@
 <html lang="hu">
     <head>
         <title></title>
-        <style></style>
+        <style>
+            .kereso{display: flexbox;
+            align-items: center;
+        align-content: center;
+    background-color: #e8eef1;
+padding: 12px 24px;
+gap: 16px;
+display: flex;
+justify-content: space-between;
+ flex-wrap: wrap;
+border-bottom: 1px solid #D1DDE3;
+padding: 10px;
+}
+.kereso-mezo{display: flexbox;
+align-items: center;
+align-content: center;
+background-color: #fff;
+border:1px #bfd0d8;
+border-radius: 30px;
+width:40%;
+min-width:240px;}
+
+.kereso-mezo .ikon{font: size 1.2em; margin-right:8px;}
+
+.kereso-mezo input{border:0;
+outline: none; font-size:1em;}
+        </style>
     </head>
     <body>
         <section class="kereso">
             <div class="kereso-mezo"><span class="ikon">&#x1F50D</span><input type="text" placeholder="Keresés"></div>
             <button class="gomb">MENÜ &#9776</button>
+            
         </section>
     </body>
 </html>
+
+
